@@ -474,7 +474,8 @@ variables_remove <- c(
   "title", 
   "description", 
   "thumbnail", 
-  "channel_title"
+  "channel_title",
+  "category_id"
 )
 
 youtube1 <- youtube[, !is.element(variables, variables_remove)]
