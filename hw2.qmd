@@ -392,10 +392,6 @@ momentum_walk1 (the ”for“ loop implementation) is faster than momentum_walk2
 
 Yes, the difference becomes larger for the larger input.
 
-When n=1000, the mean execution time for the for loop is 2.644582 milliseconds, for lapply is 4.707638.
-
-When n=100000, the mean execution time for the for loop is 282.3917 milliseconds, for lapply is 413.0722.
-
 The performance gap scales up significantly as the number of steps increases.
 
 ### iii. Why might the implementations have different execution times?
